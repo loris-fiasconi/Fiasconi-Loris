@@ -1,14 +1,16 @@
 #include <iostream>
 
 using namespace std;
-void main()
+int main()
 {
-  int n=10
+  int n=10;
   int c=0;
   for(int i=0;i<n;i++)
   {
      c++;
   }
+  
+  cout <<c;
 	 
 return 0;
 }
